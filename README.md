@@ -27,17 +27,17 @@ This will probarly work with other WebWeaver based apps too but I couldn't try i
 1. Install LernSax on your phone.
 2. Use APKExtractor to create the lernsax.apk
 3. Transfer the apk to your PC.
-4. Decode the apk using apktool
+4. Decode the apk using apktool<br>
 ``apktool d -o "lernsaxdecoded" lernsax.apk``
 5. Rename the iglogger file to iglogger.smali if you haven't already
 6. Copy the iglogger.smali to ``lernsaxdecoded/smali/de/digionline/webweaver/api/tasks``
-7. Patch the JsonApiTask.smali
+7. Patch the JsonApiTask.smali<br>
 ``patch lernsaxdecoded/smali/de/digionline/webweaver/api/tasks/JsonApiTask.smali JsonApiTask.diff``
-8. Build the patched apk
+8. Build the patched apk<br>
 ``apktool b -o lernsaxpatched.apk lernsaxdecoded``
-9. Create a key for signing
+9. Create a key for signing<br>
 ``keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000``
-10. Sign the apk with the key
+10. Sign the apk with the key<br>
 ``jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore lernsaxpatched.apk alias_name``
 11. Transfer the apk to your device.
 12. Uninstall the lernsax app.
