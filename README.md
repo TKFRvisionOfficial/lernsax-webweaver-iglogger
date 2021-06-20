@@ -2,7 +2,7 @@
 
 # Description
 This is a modification for the lernsax android app (and probarly other webweaver apps too) that integrates IGLogger into the app. 
-This allows the user to watch the requests between the android device and the json_rpc api of LernSax/WebWeaver. 
+This allows the user to watch the requests between the android device and the json_rpc api of the LernSax/WebWeaver servers. 
 This can be helpful for the reverse engineering and documentation of the json_rpc lernsax api. 
 If you want to look at the already existing documentation, want to share dumps or want to share you knowledge you can take look at my own **[research repository](https://github.com/TKFRvisionOfficial/lernsax-webweaver-api-research)**.
 
@@ -13,7 +13,7 @@ Using [logcat](https://developer.android.com/studio/command-line/logcat) you wil
 
 ## Requirements
 **[lernsax](https://play.google.com/store/apps/details?id=de.digionline.webweaverlernsax)**
-This will probarly work with other WebWeaver based apps too but I couldn't try it out yet.<br>
+This will probarly works with other WebWeaver based apps too but I couldn't try it out yet.<br>
 **[apkextractor](https://play.google.com/store/apps/details?id=com.ext.ui)**<br>
 **[apktool](https://ibotpeaches.github.io/Apktool/)**<br>
 **[iglogger.smali](https://raw.githubusercontent.com/b3nn/IGLogger/master/iglogger_for_APKTOOLv2.smali)**<br>
