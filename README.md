@@ -44,3 +44,4 @@ This will probarly work with other WebWeaver based apps too but I couldn't try i
 13. Install the patched apk.
 14. Activate USB Debugging
 15. Use [logcat](https://developer.android.com/studio/command-line/logcat) to watch the log
+16. profit!
