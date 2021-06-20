@@ -13,7 +13,7 @@ Using [logcat](https://developer.android.com/studio/command-line/logcat) you wil
 
 ## Requirements
 **[lernsax](https://play.google.com/store/apps/details?id=de.digionline.webweaverlernsax)**
-This will probarly works with other WebWeaver based apps too but I couldn't try it out yet.<br>
+This probarly works with other WebWeaver based apps too but I couldn't try it out yet.<br>
 **[apkextractor](https://play.google.com/store/apps/details?id=com.ext.ui)**<br>
 **[apktool](https://ibotpeaches.github.io/Apktool/)**<br>
 **[iglogger.smali](https://raw.githubusercontent.com/b3nn/IGLogger/master/iglogger_for_APKTOOLv2.smali)**<br>
