@@ -31,7 +31,7 @@ This will probarly work with other WebWeaver based apps too but I couldn't try i
 5. Rename the iglogger file to iglogger.smali if you haven't already
 6. Copy the iglogger.smali to ``lernsaxdecoded/smali/de/digionline/webweaver/api/tasks``
 7. Patch the JsonApiTask.smali
-``patch lernsaxdecoded/smali/de/digionline/webweaver/api/tasks/lernsax/JsonApiTask.smali JsonApiTask.diff``
+``patch lernsaxdecoded/smali/de/digionline/webweaver/api/tasks/JsonApiTask.smali JsonApiTask.diff``
 8. Build the patched apk
 ``apktool b -o lernsaxpatched.apk lernsaxdecoded``
 9. Create a key for signing
