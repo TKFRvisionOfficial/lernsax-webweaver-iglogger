@@ -1,0 +1,10 @@
+157a158,161
+>     const-string v3, "LernLog.REQ"
+>     invoke-static {v3, v7}, Liglogger;->d(Ljava/lang/String;Ljava/lang/String;)I
+>     const-string v3, "EXTRA_RESULT"
+> 
+350a355,358
+> 
+>     const-string v3, "LernLog.RESP"
+>     invoke-static {v3, v4}, Liglogger;->d(Ljava/lang/String;Ljava/lang/String;)I
+>     const-string v3, "EXTRA_RESULT"
