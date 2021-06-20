@@ -17,6 +17,7 @@ This will probarly work with other WebWeaver based apps too but I couldn't try i
 **[apkextractor](https://play.google.com/store/apps/details?id=com.ext.ui)**<br>
 **[apktool](https://ibotpeaches.github.io/Apktool/)**<br>
 **[iglogger.smali](https://raw.githubusercontent.com/b3nn/IGLogger/master/iglogger_for_APKTOOLv2.smali)**<br>
+**[JsonApiTask.diff](https://raw.githubusercontent.com/TKFRvisionOfficial/lernsax-webweaver-iglogger/main/JsonApiTask.diff)**
 **java jdk**
 ### only required for windows
 **[patch](http://gnuwin32.sourceforge.net/downlinks/patch-bin-zip.php)**
