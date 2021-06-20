@@ -1,4 +1,4 @@
-**This project is no way associated with LernSax, WebWeaver, DigiOnline GmbH or Freistaat Sachsen**
+**This project is in no way associated with LernSax, WebWeaver, DigiOnline GmbH or Freistaat Sachsen**
 
 # Description
 This is a modification for the lernsax android app (and probarly other webweaver apps too) that integrates IGLogger into the app. 
